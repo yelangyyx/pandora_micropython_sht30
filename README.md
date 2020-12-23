@@ -2,8 +2,11 @@
 pandora_micropython_sht30
   
 from machine import I2C, Pin
+
 from sht30 import SHT30
+
 import utime as time
+
 
 PIN_CLK = 29   # PD6, get the pin number from get_pin_number.py
 PIN_SDA = 30   # PC1
